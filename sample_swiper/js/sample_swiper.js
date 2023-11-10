@@ -20,9 +20,10 @@ let sound;
 
 //音源用意
 let sound_list=[
-  new Audio('../dummy_sound/sound01.mp3'),
-  new Audio('../dummy_sound/sound02.mp3'),
-  new Audio('../dummy_sound/sound03.mp3'),
+  new Audio('../dummy_sound/rainroad.mp3'),
+  new Audio('../dummy_sound/urban.mp3'),
+  new Audio('../dummy_sound/fridge.mp3'),
+  new Audio('../dummy_sound/')
 ];
 
 
@@ -42,5 +43,7 @@ function volumeUp(){
     sound.volume +=0.05;//ボリューム上げる
     setTimeout(volumeUp,100);//少し待って繰り返し(再帰)
   }
+
 }
+
 	
